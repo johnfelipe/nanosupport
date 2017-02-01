@@ -272,6 +272,9 @@ $ns_knowledgebase_notice = __( 'Find your desired question in the knowledgebase.
 /** Install the plugin **/
 include_once 'includes/ns-install.php';
 
+/** Load necessary classes **/
+include_once 'includes/class-ns-utilities.php';
+
 /** Core Functions **/
 include_once 'includes/ns-core-functions.php';
 /** Functions specific to setup the environments **/
